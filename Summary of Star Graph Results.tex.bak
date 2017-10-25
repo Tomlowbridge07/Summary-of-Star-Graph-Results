@@ -144,14 +144,10 @@ We will use the fact that the graph is bipartite with some number in the biggest
 
 \begin{itemize}
 \item If $k$ odd:
-Then we get $n \times \frac{k+1}{2}$ along the branches and $1$ from the centre. Getting $\frac{n(k+1)+2}{2}$ so $V \leq \frac{m}{n(k+1)+2}$.
-
-Note. This does not align well when $m \geq 2(k+1)$ as we are getting a much weaker upper bound here.
+Then we get $n \times \frac{k+1}{2}$ along the branches and $1$ from the centre. Getting $\frac{n(k+1)+2}{2}$ so $V=\frac{m}{n(k+1)+2}$
 
 \item If even:
-Then we get $n \times (\frac{k}{2}+1)$ along the branches (none in centre). Getting $\frac{n(k+2)}{2}$ so $V \leq \frac{m}{n(k+2)}$.
-
-Note. This aligns perfectly when $m \geq 2(k+1)$ with $\sum k_{i}=\sum k=nk$ , providing the attacker a differnt attack
+Then we get $n \times (\frac{k}{2}+1)$ along the branches (none in centre). Getting $\frac{n(k+2)}{}$
  
 \end{itemize}
   
