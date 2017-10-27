@@ -125,20 +125,19 @@ We further split this into two regions
 We further split this into two regions
 
 \begin{itemize}
-\item $m=2k-2$ or $m=2k-1$ and $m \geq 2n-1$:
+\item $m=2k-2$ and $m \geq 2n-1$ or $m=2k-1$ and $m \geq 2n-1$:
 
  \begin{itemize}
  \item The patroller can follow 
 
-
   \item The attacker will `augment' their `time-delayed' attack to place attacks at times $0,...,2k-3$ at the elongated node and times $k-2,k-1$ at normal external nodes. With the node along the line, which is extended by $k$ also being attacked at times $k-2,k-1$, giving the bound $V \leq \frac{m}{2n + 2k-2}=\frac{m}{2(n+k-1)}$
  \end{itemize}
 
-\item $m=2k-1$ and $m \leq 2(n-1)$:
+\item $m=2k-1$ and $m \leq 2(n-1)$ or $m=2k-2$ and $m \leq 2(n-1)$:
 
  \begin{itemize}
- \item The patroller will follow the decompostion into $S_{n-1}$ and $L_{k+1}$ giving $V \geq \frac{1}{\frac{1}{V(S_{n-1})}+\frac{1}{V(L_{k+1})}}=\frac{1}{\frac{2(n-1)}{m}+\frac{2k}{m}}=\frac{m}{2(n+k-1)}=\frac{2k-1}{2(n+k-1)}$
- \item The attacker will `augment' their `time-delayed' attack to place attacks at times $0,...,2k-3$ at the elongated node and times $k-2,k-1$ at normal external nodes. With the node along the line, which is extended by $k$ also being attacked at times $k-2,k-1$, giving the bound $V \leq \frac{m}{2n + 2k-2}=\frac{m}{2(n+k-1)}=\frac{2k-1}{2(n+k-1)}$
+ \item The patroller will follow the decompostion into $S_{n-1}$ and $L_{k+1}$ giving $V \geq \frac{1}{\frac{1}{V(S_{n-1})}+\frac{1}{V(L_{k+1})}}=\frac{1}{\frac{2(n-1)}{m}+\frac{2k}{m}}=\frac{m}{2(n+k-1)}$
+ \item The attacker will `augment' their `time-delayed' attack to place attacks at times $0,...,2k-3$ at the elongated node and times $k-2,k-1$ at normal external nodes. With the node along the line, which is extended by $k$ also being attacked at times $k-2,k-1$, giving the bound $V \leq \frac{m}{2n + 2k-2}=\frac{m}{2(n+k-1)}$
  \end{itemize}  
  Hence we have $V=\frac{m}{2(n+k-1)}$
  
@@ -187,14 +186,14 @@ For $l=0$, i.e two immediately joined stars.
 The strategies depend on whether the patroller is able to win one game or not and then move to another game and try to win more.
 
 \begin{itemize}
-\item If it is possible to do so i.e $m \geq 2n+1$???
+\item If it is possible to do so i.e $m \geq 2n+1$
   \begin{itemize}
   \item The patroller can use the hamiltonian cycle and achieve $V \geq \frac{m}{2(2n+1)}$
   
   \item The attacker can use a `time-delayed' type attack, attacking external nodes at times $0,1,..,2n$ (making $n(2n+1)$ attacks in total) this gives a bound of $V \leq \frac{m}{2(2n+1)}$
   \end{itemize}
 
-\item If it not possible to do so i.e $m \leq 2n$???
+\item If it not possible to do so i.e $m \leq 2n$
  \begin{itemize}
  \item The patroller can use decomposition to split into $S_{n}$ , $S_{n}$ getting $V \leq \frac{m}{4n}$
  
@@ -205,11 +204,24 @@ The strategies depend on whether the patroller is able to win one game or not an
 State of proof: For the case of $m \geq 2n+1$, proof is needed for the attackers bound
 \subsection[]{General $l$}
 
-\begin{itemize}
-\item The patroller can use the hamiltonian cycle and achieve $V \leq \frac{m}{2(2n+l+1)}$
+The strategies depend on whether the patroller is able to win one game or not and then move to another game and try to win more.
 
-\item 
+\begin{itemize}
+\item If it is possible to do so i.e $m \geq 2n+1$
+  \begin{itemize}
+  \item The patroller can use the hamiltonian cycle and achieve $V \geq \frac{m}{2(2n+l+1)}$
+  
+  \item The attacker can use a `time-delayed' type attack, attacking external nodes at times $0,1,..,2n+l$ (making $n(2n+1)$ attacks in total) this gives a bound of $V \leq \frac{m}{2(2n+l+1)}$
+  \end{itemize}
+
+\item If it not possible to do so i.e $m \leq 2n$
+ \begin{itemize}
+ \item The patroller can use decomposition to split into $S_{n+1}^{l-1}$ , $S_{n}$ getting $V \leq \frac{m}{2n+2(n+1+l-1)}=\frac{m}{2(2n+l)}$
+ 
+ \item ???
+ \end{itemize}
 \end{itemize}
+
 
 %End of main part of document
 \bibliography{mybib}

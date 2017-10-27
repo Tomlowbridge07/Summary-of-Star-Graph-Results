@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.5)  27 OCT 2017 08:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.5)  27 OCT 2017 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,6 +1305,11 @@ mr/m/n/10 +
 [1
 
 ] [2] [3]
+Overfull \hbox (2.23267pt too wide) in paragraph at lines 212--213
+[]\OT1/cmr/m/n/10 The pa-troller can use the hamil-to-nian cy-cle and achieve $
+\OML/cmm/m/it/10 V \OMS/cmsy/m/n/10 ^^U []$ 
+ []
+
 No file "Summary of Star Graph Results".bbl.
 [1] (./Summary of Star Graph Results.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1340,7 +1345,7 @@ fb></maths/linuxlocal/AMD64/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 c/amsfonts/cm/cmsy10.pfb></maths/linuxlocal/AMD64/texlive/2017/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy5.pfb></maths/linuxlocal/AMD64/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Summary of Star Graph Results.pdf" (5 pages, 206067 bytes).
+Output written on "Summary of Star Graph Results.pdf" (5 pages, 206677 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
