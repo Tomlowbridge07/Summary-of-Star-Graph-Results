@@ -120,6 +120,30 @@ We further split this into two regions
 
 \end{itemize}
 
+\subsection[]{Full solution for $m=2k-1,2k$}
+
+We further split this into two regions
+
+\begin{itemize}
+\item $m=2k-2$ or $m=2k-1$ and $m \geq 2n-1$:
+
+ \begin{itemize}
+ \item The patroller can follow 
+
+
+  \item The attacker will `augment' their `time-delayed' attack to place attacks at times $0,...,2k-3$ at the elongated node and times $k-2,k-1$ at normal external nodes. With the node along the line, which is extended by $k$ also being attacked at times $k-2,k-1$, giving the bound $V \leq \frac{m}{2n + 2k-2}=\frac{m}{2(n+k-1)}$
+ \end{itemize}
+
+\item $m=2k-1$ and $m \leq 2(n-1)$:
+
+ \begin{itemize}
+ \item The patroller will follow the decompostion into $S_{n-1}$ and $L_{k+1}$ giving $V \geq \frac{1}{\frac{1}{V(S_{n-1})}+\frac{1}{V(L_{k+1})}}=\frac{1}{\frac{2(n-1)}{m}+\frac{2k}{m}}=\frac{m}{2(n+k-1)}=\frac{2k-1}{2(n+k-1)}$
+ \item The attacker will `augment' their `time-delayed' attack to place attacks at times $0,...,2k-3$ at the elongated node and times $k-2,k-1$ at normal external nodes. With the node along the line, which is extended by $k$ also being attacked at times $k-2,k-1$, giving the bound $V \leq \frac{m}{2n + 2k-2}=\frac{m}{2(n+k-1)}=\frac{2k-1}{2(n+k-1)}$
+ \end{itemize}  
+ Hence we have $V=\frac{m}{2(n+k-1)}$
+ 
+\end{itemize}
+
 \section[]{Summary on $S_{n}^{\bm{k}}$ results}
 
 \subsection[]{Full Solution for $m \geq 2(k_{\max} +1)$}
@@ -144,16 +168,42 @@ We will use the fact that the graph is bipartite with some number in the biggest
 
 \begin{itemize}
 \item If $k$ odd:
-Then we get $n \times \frac{k+1}{2}$ along the branches and $1$ from the centre. Getting $\frac{n(k+1)+2}{2}$ so $V=\frac{m}{n(k+1)+2}$
+Then we get $n \times \frac{k+1}{2}$ along the branches and $1$ from the centre. Getting $\frac{n(k+1)+2}{2}$ so $V \leq \frac{m}{n(k+1)+2}$.
+
+Note. This does not align well when $m \geq 2(k+1)$ as we are getting a much weaker upper bound here.
 
 \item If even:
-Then we get $n \times (\frac{k}{2}+1)$ along the branches (none in centre). Getting $\frac{n(k+2)}{}$
+Then we get $n \times (\frac{k}{2}+1)$ along the branches (none in centre). Getting $\frac{n(k+2)}{2}$ so $V \leq \frac{m}{n(k+2)}$.
+
+Note. This aligns perfectly when $m \geq 2(k+1)$ with $\sum k_{i}=\sum k=nk$ , providing the attacker a differnt attack
  
 \end{itemize}
   
 \section[]{Summary on $S_{n} \tightoverset{\scalebox{0.8}{$l$}}{-} S_{n}$}
 
+\subsection[]{$l=0$}
+For $l=0$, i.e two immediately joined stars.
 
+The strategies depend on whether the patroller is able to win one game or not and then move to another game and try to win more.
+
+\begin{itemize}
+\item If it is possible to do so i.e $m \geq 2n+1$
+  \begin{itemize}
+  \item The patroller can use the hamiltonian cycle and achieve $V \geq \frac{m}{2(2n+1)}$
+  
+  \item The attacker can use a `time-delayed' type attack, attacking external nodes at times $0,1,..,4$ (making $10n$ attacks in total) this gives a bound of $V \leq \frac{m}{2(}$
+  \end{itemize}
+
+\item 
+\end{itemize}
+
+\subsection[]{General $l$}
+
+\begin{itemize}
+\item The patroller can use the hamiltonian cycle and achieve $V \leq \frac{m}{2(2n+l+1)}$
+
+\item 
+\end{itemize}
 
 %End of main part of document
 \bibliography{mybib}

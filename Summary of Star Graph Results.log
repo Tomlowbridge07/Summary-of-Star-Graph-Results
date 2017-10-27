@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.5)  25 OCT 2017 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.5)  27 OCT 2017 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,13 +1304,13 @@ mr/m/n/10 +
 
 [1
 
-] [2]
+] [2] [3]
 No file "Summary of Star Graph Results".bbl.
 [1] (./Summary of Star Graph Results.aux) ) 
 Here is how much of TeX's memory you used:
  23905 strings out of 492995
  474639 string characters out of 6132690
- 493637 words of memory out of 5000000
+ 492637 words of memory out of 5000000
  27073 multiletter control sequences out of 15000+600000
  18880 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1340,10 +1340,10 @@ fb></maths/linuxlocal/AMD64/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 c/amsfonts/cm/cmsy10.pfb></maths/linuxlocal/AMD64/texlive/2017/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy5.pfb></maths/linuxlocal/AMD64/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Summary of Star Graph Results.pdf" (4 pages, 202204 bytes).
+Output written on "Summary of Star Graph Results.pdf" (5 pages, 206067 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
